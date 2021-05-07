@@ -1,5 +1,6 @@
 # 1: Extract equal integers from a list and make a new list of no repeating numbers 
-# 2: Write a .txt document using those numbers 
+# 2: Write a .txt document using those numbers
+# 3: Add an explanation for each row (explanation of your choice)
 # 3: Add a header in the .txt document 
 
 oldlist = [1,2,3,4,4,5,5,6]
