@@ -1,17 +1,15 @@
-# print even and odd numbers in range 100
+# print even and odd numbers in any range
+
+def even_odd(arr):
+    for i in arr:
+        if i % 2 == 0:
+            print(f'{i} is even')
+        else:
+            print(f'{i} is odd')
+
+l = []
+for i in range(100):
+    l.append(i)
 
 
-values = range(1,100)
-def even():
-    for i in values: 
-        if i % 2 == 0: 
-            print(i)
-def odd():
-    for i in values:
-        if i % 2 != 0:
-            print(i)
-print("EVEN")        
-even()
-print("-----------------------")
-print("ODD")
-odd()
+even_odd(l)
