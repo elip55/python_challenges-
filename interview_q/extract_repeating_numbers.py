@@ -27,6 +27,6 @@ def build_txt(arr):
     buildit = f'The repeating numbers are:\n'
     for i in arr:
         buildit += f'{i}\n'
-    with open('repeating number', 'w') as writer:
+    with open('repeating number.txt', 'w') as writer:
         writer.write(buildit)
 
