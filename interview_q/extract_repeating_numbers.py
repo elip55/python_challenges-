@@ -1,7 +1,7 @@
 
 # 1: Extract repeating integers from an arr
 # 2: Write a .txt document displaying those numbers
-import random # import random for practice
+
 """NEEDS OPTIMIZATION"""
 def extract_numbers(arr):
     # first initialize the lists
@@ -30,3 +30,4 @@ def build_txt(arr):
     with open('repeating number.txt', 'w') as writer:
         writer.write(buildit)
 
+        
